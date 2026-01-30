@@ -1,5 +1,5 @@
 -- local lush = require("lush")
-local theme = require("cinnamonwine.theme")
+local theme = require("loverspotion.theme")
 
 local function setup()
   return theme

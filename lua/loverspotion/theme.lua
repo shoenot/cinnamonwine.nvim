@@ -1,7 +1,7 @@
 local lush = require('lush')
 local hsl = lush.hsl
 
-local palette = require("cinnamonwine.palette")
+local palette = require("loverspotion.palette")
 
 local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
