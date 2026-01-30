@@ -1,4 +1,4 @@
-local colorscheme = require("lua.loverspotion.init").setup()
+local colorscheme = require("loverspotion").setup()
 local lushwright = require("shipwright.transform.lush")
 
 -- export to lua
