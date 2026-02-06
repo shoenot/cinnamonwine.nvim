@@ -30,3 +30,5 @@ Also make sure to change your lualine theme to 'cinnamonwine'.
 1. Ensure [lush.nvim](https://github.com/rktjmp/lush.nvim) and [shipwright.nvim](https://github.com/rktjmp/shipwright.nvim) are installed
 2. Modify [lua/cinnamonwine/theme.lua](lua/cinnamonwine/theme.lua)
 3. Rebuild the colorscheme using `./build.sh`
+
+Also check out the helix variant, at shoenot/cinnamonwine.hx if you want. 
