@@ -1,7 +1,7 @@
-# A Witchy, Wine-y color scheme for Neovim.
+# A Cinnamon-y, fall-inspired color scheme for Neovim, derived from shoenot/witchesbrew.nvim
 ***Best served in a cauldron with added spices.***
 
-![witchesbrew screenshot with a couple splits](./assets/screenshot-0.png)
+![cinnamonwine screenshot with a couple splits](./assets/screenshot-0.png)
 
 Built with [Lush](https://github.com/rktjmp/lush.nvim/tree/main).
 
@@ -15,16 +15,18 @@ Plugins supported:
 With [Lazy](https://github.com/folke/lazy.nvim):
 ```lua
 {
-    "shoenot/witchesbrew.nvim",
+    "shoenot/cinnamonwine.nvim",
     priority = 1000,
     config = function()
-        vim.cmd([[colorscheme witchesbrew]])
+        vim.cmd([[colorscheme cinnamonwine]])
     end,
 }
 ```
 
+Also make sure to change your lualine theme to 'cinnamonwine'. 
+
 ## Build or Modify
 
 1. Ensure [lush.nvim](https://github.com/rktjmp/lush.nvim) and [shipwright.nvim](https://github.com/rktjmp/shipwright.nvim) are installed
-2. Modify [lua/witchesbrew/theme.lua](lua/witchesbrew/theme.lua)
+2. Modify [lua/cinnamonwine/theme.lua](lua/cinnamonwine/theme.lua)
 3. Rebuild the colorscheme using `./build.sh`
